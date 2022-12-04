@@ -1,8 +1,8 @@
 export let home = 
 "<h1>home</h1>" + 
-"<h2>h2</h2>" +
+"<h2>home</h2>" +
 "<p>p</p>";
-
+"<p>p</p>";
 
 export let personal_profile = 
 

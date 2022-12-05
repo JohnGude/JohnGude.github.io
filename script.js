@@ -8,6 +8,12 @@ import {personal_profile5} from "./test_text.js";
 const pages = ["home","personal_profile","personal_profile2","personal_profile3","personal_profile4","personal_profile5"]
 const imports = [home,personal_profile,personal_profile2,personal_profile3,personal_profile4,personal_profile5]
 
+let element = document.getElementById("home");
+element.classList.add("active")
+document.getElementById("display_text").innerHTML = imports[0]
+
+
+
 window.onclick = e => {
 
      const actives = document.querySelectorAll(".active");
@@ -38,3 +44,4 @@ let contents =(target)=>{
     
     }
 }
+

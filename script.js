@@ -1,8 +1,8 @@
-import {personal_information} from "./test_text.js";
-import {it_interests} from "./test_text.js";
-import {ideal_career_position} from "./test_text.js";
-import {personal_profile} from "./test_text.js";
-import {project_idea} from "./test_text.js";
+import {personal_information} from "./text.js";
+import {it_interests} from "./text.js";
+import {ideal_career_position} from "./text.js";
+import {personal_profile} from "./text.js";
+import {project_idea} from "./text.js";
 
 
 const pages = ["personal_information","it_interests","ideal_career_position","personal_profile","project_idea"]
@@ -14,34 +14,50 @@ document.getElementById("display_text").innerHTML = imports[0]
 
 
 
-window.onclick = e => {
 
-     const actives = document.querySelectorAll(".active");
-     for (let i = 0; i< actives.length;i++){
-        actives[i].classList.remove("active")
-     }
 
-    const element = document.getElementById(e.target.id).classList;
-    element.add("active");
-    contents(e.target.id)
-
-}
-
-let contents =(target)=>{
-
-    let index = 0
+    window.onclick = e => {
     
-    while (index< pages.length){
-        if (target===pages[index]){
-            document.getElementById("display_text").innerHTML = imports[index]
-            break
+        try{
+        let element = document.getElementById(e.target.id).classList;
+       // console.log(e.target.id)
+
+        let index = 0
+        while (index< pages.length){
+           if (e.target.id == pages[index] && (e.target.id != "")){
+
+        class_list() 
+        element.add("active");
+        contents(e.target.id)
+        } index++
+    
+    }}
+        catch(err){
+        //   console.log("The Error is:"+ err)
+
         }
-   
-        if (target != pages[index])
-            document.getElementById("display_text").innerHTML = ""
 
-    index ++
-    
     }
-}
+
+    //Add page contents
+    let contents =(target)=>{
+
+        let index = 0
+        
+        while (index< pages.length){
+            if (target===pages[index]){
+                document.getElementById("display_text").innerHTML = imports[index]
+                break
+            }
+        index ++
+        
+        }
+    }
+    
+    //removes active page high lighted
+    let class_list =()=>{
+        const actives = document.querySelectorAll(".active");
+    for (let i = 0; i< actives.length;i++){
+        actives[i].classList.remove("active")
+    }}
 

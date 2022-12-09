@@ -1,14 +1,14 @@
-import {home} from "./test_text.js";
+import {personal_information} from "./test_text.js";
 import {personal_profile} from "./test_text.js";
 import {personal_profile2} from "./test_text.js";
 import {personal_profile3} from "./test_text.js";
 import {personal_profile4} from "./test_text.js";
-import {personal_profile5} from "./test_text.js";
 
-const pages = ["home","personal_profile","personal_profile2","personal_profile3","personal_profile4","personal_profile5"]
-const imports = [home,personal_profile,personal_profile2,personal_profile3,personal_profile4,personal_profile5]
 
-let element = document.getElementById("home");
+const pages = ["personal_information","personal_profile","personal_profile2","personal_profile3","personal_profile4"]
+const imports = [personal_information,personal_profile,personal_profile2,personal_profile3,personal_profile4]
+
+let element = document.getElementById("personal_information");
 element.classList.add("active")
 document.getElementById("display_text").innerHTML = imports[0]
 

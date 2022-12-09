@@ -172,4 +172,7 @@ img:hover {
   .navbar a{
     font-size: 12px;
   }
+  img {
+    max-width: 100px;
+  }
 }

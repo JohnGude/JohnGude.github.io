@@ -1,12 +1,12 @@
 import {personal_information} from "./test_text.js";
+import {it_interests} from "./test_text.js";
+import {ideal_career_position} from "./test_text.js";
 import {personal_profile} from "./test_text.js";
-import {personal_profile2} from "./test_text.js";
-import {personal_profile3} from "./test_text.js";
-import {personal_profile4} from "./test_text.js";
+import {project_idea} from "./test_text.js";
 
 
-const pages = ["personal_information","personal_profile","personal_profile2","personal_profile3","personal_profile4"]
-const imports = [personal_information,personal_profile,personal_profile2,personal_profile3,personal_profile4]
+const pages = ["personal_information","it_interests","ideal_career_position","personal_profile","project_idea"]
+const imports = [personal_information,it_interests,ideal_career_position,personal_profile,project_idea]
 
 let element = document.getElementById("personal_information");
 element.classList.add("active")

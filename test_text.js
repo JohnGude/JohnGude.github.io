@@ -66,14 +66,14 @@ export let personal_information =
 "<li>Certificate of electrical safety competence ESC749s</li>"+
 "</ol></p>"
 
-export let personal_profile = 
+export let it_interests = 
 
 "<h1>IT Interests</h1>" + 
 "<p>Information Technology has changed dramatically over the last 25+ years, when I first started my career, we only had access to very basic technology and much of my interest was around this technology. I followed school subjects which gave me access to the current technology of the time, basic circuit design and logic gates. Later I went to college to continue this study area, again the technology was still limited by today’s standards, but I followed electronics and communications engineering as my subject areas. As time progressed, I moved into other areas, from deep communication protocols to CAD and visual technology and then later into design management and infrastructure design management using digital engineering. I have always been interested in technology, but more so the learning of a new skill or understanding of something is the real driver. There was no real person or event that particularly stands out of why I have an interest in IT from my past but the desire to understand how and why things work and what can be done with technology is of great significance in my career and life more broadly."+
 "<p>I chose to come to RMIT because of the desire to learn professional level programming and development in technology within network topology, web dev and design patterns, this is in direct relationship with my current role as I work with some very advanced systems and technology in the market it helps me to understand the business value across $b projects. I chose RMIT, both from my own research and from appointing professionals into roles within my business where I see the quality of their knowledge that I wished to learn. RMIT therefore provided the depth and breadth with the flexibility of on-line learning to fit with my current role.</p>"+
 "<p>My expectations for learning are to fill missing links between my career and self-study learning within IT in general. The expectation is that I learn the professional way of applying what I know, specifically in coding and design patterns. I also hope to understand some of the more complex topics which are difficult to learn at home. Additionally, it would be a fantastic achievement to gain a qualification to the level that backs my career-based knowledge, the idea to take it step by step rather than full commitment via the online learning and modules provided allows me to stay in control of when its best for me to learn, this promotes a higher success rate rather than trying to do everything at once.</p>";
 
-export let personal_profile2 = 
+export let ideal_career_position = 
 
 "<h1>Ideal career Career Position</h1>" + 
 "<p>My ideal role would be Chief Digital Officer and follows on from my current role of Chief Technical Engineer ANZ. This role is the next evolutionary step in my career, having worked within this field for 25+ years my knowledge and understanding across multiple sectors at a global level is consummate to this role. This position provides me with the level of influence to develop global frameworks rather than national or country level frameworks. It allows access to additional resources and skills to enable cohesive ideas and technology solutions to come together to solve complex engineering problems. This solving of complex problems is one of the driving forces of choosing this career path.</p>"+
@@ -90,7 +90,7 @@ export let personal_profile2 =
 "</ol>"+
 "<p>The plan to achieve this is to complete a IT degree and register for professional memberships to compliment my current role (Chief Technical Engineer:Digital, Systems,Signalling) and transition through promotion into the CDO role.</p>";
 
-export let personal_profile3 =
+export let personal_profile =
 
 "<h1>My Personal Profile</h1>" + 
 "<p>The assessment requires three tests, two like the Myers-Briggs Type Indicator (MBTI) test and one as this test. The tests selected were as follows with links provided to the relevant URL’s.</p>"+
@@ -114,7 +114,7 @@ export let personal_profile3 =
 ;
 
 
-export let personal_profile4 =
+export let project_idea =
 
 "<h1>Project Idea</h1>" + 
 "<h2>Overview</h2>" +

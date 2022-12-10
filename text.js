@@ -110,7 +110,7 @@ export let personal_profile =
 
 "<h4>https://www.123test.com/disc-personality-test/</h4>" +
 "<p>The results of this test were not very accurate representation of me, it allows me to understand my view of the world against others, but I believe the test is not accurate. Using tests such as these could be detrimental to you if you followed them explicitly. The test will influence me in that I will need to accommodate others understanding, allowing other to come to their own conclusions rather than judging the conclusion early that they make. This will allow me to work within a team more effectively. Understanding roles within a team is important, however working within a team in other role outside of my ‘comfort zone’ will allow better and deeper understanding of how the team can be better equipped for the future.I have learned that not all online tests are made equally.</p>"+
-'<div><img src="./disk.png"></img></div>';
+'<div><img src="./disk.png"></div>';
 
 
 export let project_idea =

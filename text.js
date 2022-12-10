@@ -102,7 +102,7 @@ export let personal_profile =
 "</ol>"+
 "<h4>16personaities, Myers-Briggs Type Indicator test</h4>" +
 "<p>The results of this test were relatively accurate, it allows me to understand my view of the world against others. This in turn allows me to interact and see the social interactions I have viewed from a different person and adjust as required to accommodate the connection. The test will influence me in that I will need to accommodate others understanding, allowing other to come to their own conclusions rather than judging the conclusion early, that they make. This will allow me to work within a team more effectively. Understanding roles within a team is important, however working within a team in other role outside of my ‘comfort zone’ will allow better and deeper understanding of how the team can be better equipped for the future.</p>"+
-"<div><img src='./mbrigs.PNG'></div>"+
+"<div><img src='./mbrigs.png'></div>"+
 
 "<h4>https://www.seemypersonality.com/#q1</h4>" +
 "<p>The results of this test, shown below in the provided extract, are in my opinion like horoscopes, mass application to many. However, with the various results the following could be extrapolated, the test will influence me in that I will need to accommodate others understanding, allowing other to come to their own conclusions rather than judging the conclusion early that they make. This will allow me to work within a ream more effectively. Understanding roles within a team is important, however working within a team in other role outside of my ‘comfort zone’ will allow better and deeper understanding of how the team can be better equipped for the future. I have learned that not all online tests are made equally.</p>"+

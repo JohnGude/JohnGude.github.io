@@ -94,7 +94,7 @@ export let ideal_career_position =
 export let personal_profile =
 
 "<h1>My Personal Profile</h1>" + 
-"<p>The assessment requires three tests, two like the Myers-Briggs Type Indicator (MBTI) test and one as this test. The tests selected were as follows with links provided to the relevant URL’s.</p>"+
+"<p>My personal profile has been comprised of three tests and i have provided a summary of each tests accuracy.</p>"+
 "<ol>"+
 "<li><a href='https://www.16personalities.com/'>16personalities: Myers-Briggs Type Indicator (MBTI)</a></li>"+
 "<li><a href='https://www.seemypersonality.com/'>seemy personality test</a></li>"+
